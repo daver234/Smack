@@ -26,6 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-298" y="71"/>
         </scene>
         <!--ChatVC-->
         <scene sceneID="j7Q-Xm-z9k">
@@ -82,7 +83,7 @@
         <scene sceneID="khQ-cd-FPj">
             <objects>
                 <viewController id="s90-n4-lau" customClass="ChannelVC" customModule="Smack" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uhO-2v-iub">
+                    <view key="view" contentMode="scaleToFill" id="uhO-2v-iub" customClass="GradientView" customModule="Smack" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
