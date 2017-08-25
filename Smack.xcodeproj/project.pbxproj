@@ -10,6 +10,7 @@
 		51EAA7FA64BD1DC13226314B /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FB27841B935CA4888676D /* Pods_Smack.framework */; };
 		5593BB0B1F4E7C71007F8AD1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */; };
 		5593BB0D1F4E9D44007F8AD1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0C1F4E9D44007F8AD1 /* GradientView.swift */; };
+		5593BB101F4FB6EF007F8AD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0F1F4FB6EF007F8AD1 /* Constants.swift */; };
 		5598673B1F4E5402008E5D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598673A1F4E5402008E5D62 /* AppDelegate.swift */; };
 		559867401F4E5402008E5D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5598673E1F4E5402008E5D62 /* Main.storyboard */; };
 		559867421F4E5402008E5D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559867411F4E5402008E5D62 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5593BB0A1F4E7C66007F8AD1 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		5593BB0C1F4E9D44007F8AD1 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5593BB0F1F4FB6EF007F8AD1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		559867371F4E5402008E5D62 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5598673A1F4E5402008E5D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5598673F1F4E5402008E5D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5593BB0E1F4FB6DE007F8AD1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5593BB0F1F4FB6EF007F8AD1 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		5598672E1F4E5402008E5D62 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		559867391F4E5402008E5D62 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				5593BB0E1F4FB6DE007F8AD1 /* Utilities */,
 				5598674C1F4E593C008E5D62 /* Supporting Files */,
 				559867521F4E776F008E5D62 /* Model */,
 				559867511F4E7762008E5D62 /* View */,
@@ -261,6 +272,7 @@
 				5593BB0D1F4E9D44007F8AD1 /* GradientView.swift in Sources */,
 				5598673B1F4E5402008E5D62 /* AppDelegate.swift in Sources */,
 				5593BB0B1F4E7C71007F8AD1 /* SWRevealViewController.m in Sources */,
+				5593BB101F4FB6EF007F8AD1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
