@@ -9,6 +9,33 @@
 import UIKit
 
 class CreateAccountVC: UIViewController {
+    
+    // Outlets
+    @IBOutlet weak var usernameText: UITextField!
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var userImage: UIImageView!
+    
+    @IBAction func chooseAvatarPressed(_ sender: Any) {
+    }
+    @IBAction func createAccountPressed(_ sender: Any) {
+        guard let email = emailText.text, emailText.text != "" else {
+            return
+        }
+        
+        guard let pass = passwordText.text, passwordText.text != "" else {
+            return
+        }
+        
+        AuthoService.instance.registerUser(email: email, password: pass) { (success) in
+            if success {
+                print("registered user!")
+            }
+        }
+    }
+    
+    @IBAction func pickBGcolorPressed(_ sender: Any) {
+    }
     @IBAction func closePressed(_ sender: Any) {
         performSegue(withIdentifier: UNWIND, sender: nil)
     }

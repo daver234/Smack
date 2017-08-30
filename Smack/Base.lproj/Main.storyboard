@@ -396,6 +396,7 @@
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="chooseAvatarPressed:" destination="C5U-mG-e7t" eventType="touchUpInside" id="sSD-tR-rdN"/>
                                     <action selector="createAccountBtnPressed:" destination="nyP-FR-1g3" eventType="touchUpInside" id="bmx-W4-qSF"/>
                                 </connections>
                             </button>
@@ -410,6 +411,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="C5U-mG-e7t" eventType="touchUpInside" id="P1y-wP-Ajy"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="Woy-WY-UJs">
                                 <rect key="frame" x="137" y="299" width="100" height="100"/>
@@ -430,6 +434,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountBtnPressed:" destination="nyP-FR-1g3" eventType="touchUpInside" id="Zbm-qL-GQ4"/>
+                                    <action selector="pickBGcolorPressed:" destination="C5U-mG-e7t" eventType="touchUpInside" id="0m5-8P-9Vy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -454,6 +459,10 @@
                         <viewLayoutGuide key="safeArea" id="Uqq-dM-AzY"/>
                     </view>
                     <connections>
+                        <outlet property="emailText" destination="97Z-I6-Qf2" id="rYI-rX-nJn"/>
+                        <outlet property="passwordText" destination="Ifg-Jv-56D" id="BhS-MP-fwm"/>
+                        <outlet property="userImage" destination="Woy-WY-UJs" id="EXA-Th-pu6"/>
+                        <outlet property="usernameText" destination="dJ3-ms-ZKf" id="lup-wI-wNs"/>
                         <segue destination="gIQ-mh-Qh2" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="m7w-FD-GHJ"/>
                     </connections>
                 </viewController>
