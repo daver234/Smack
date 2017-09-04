@@ -21,7 +21,9 @@ class CreateAccountVC: UIViewController {
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
     
     @IBAction func chooseAvatarPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_AVATAR_PICKER, sender: nil)
     }
+    
     @IBAction func createAccountPressed(_ sender: Any) {
         guard let username = usernameText.text, usernameText.text != "" else {
             return
