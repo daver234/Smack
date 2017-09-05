@@ -10,9 +10,9 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class AuthoService {
+class AuthService {
     
-    static let instance = AuthoService()
+    static let instance = AuthService()
     
     let defaults = UserDefaults.standard
     var isLoggedIn: Bool {
@@ -106,7 +106,7 @@ class AuthoService {
         ]
         
         let header = [
-            "Authorization": "Bearer \(AuthoService.instance.authToken)",
+            "Authorization": "Bearer \(AuthService.instance.authToken)",
             "Content-Type": "application/json; charset=utf-8"
         ]
         
