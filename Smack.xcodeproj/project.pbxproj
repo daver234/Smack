@@ -32,6 +32,7 @@
 		55A888FF1F5FC47F0060A60B /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A888FE1F5FC47F0060A60B /* ChannelCell.swift */; };
 		55A889021F63A95B0060A60B /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A889001F63A95B0060A60B /* AddChannelVC.swift */; };
 		55A889031F63A95B0060A60B /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A889011F63A95B0060A60B /* AddChannelVC.xib */; };
+		55FCD5F51F63B5DD004B7575 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCD5F41F63B5DD004B7575 /* SocketService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		55A888FE1F5FC47F0060A60B /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		55A889001F63A95B0060A60B /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		55A889011F63A95B0060A60B /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		55FCD5F41F63B5DD004B7575 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		DE34FA091B8FD59BA9462442 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 				551A7F831F5142EB00AC73E9 /* AuthService.swift */,
 				551A7F871F57E1D900AC73E9 /* UserDataService.swift */,
 				55A888FA1F5FB22E0060A60B /* MessageService.swift */,
+				55FCD5F41F63B5DD004B7575 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FCD5F51F63B5DD004B7575 /* SocketService.swift in Sources */,
 				551A7F911F5E50D200AC73E9 /* ProfileVC.swift in Sources */,
 				55A888FF1F5FC47F0060A60B /* ChannelCell.swift in Sources */,
 				559867541F4E7789008E5D62 /* ChatVC.swift in Sources */,
