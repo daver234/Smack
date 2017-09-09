@@ -29,6 +29,9 @@
 		559867561F4E7799008E5D62 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559867551F4E7799008E5D62 /* ChannelVC.swift */; };
 		55A888FB1F5FB22E0060A60B /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A888FA1F5FB22E0060A60B /* MessageService.swift */; };
 		55A888FD1F5FB25D0060A60B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A888FC1F5FB25D0060A60B /* Channel.swift */; };
+		55A888FF1F5FC47F0060A60B /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A888FE1F5FC47F0060A60B /* ChannelCell.swift */; };
+		55A889021F63A95B0060A60B /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A889001F63A95B0060A60B /* AddChannelVC.swift */; };
+		55A889031F63A95B0060A60B /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A889011F63A95B0060A60B /* AddChannelVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		559867551F4E7799008E5D62 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		55A888FA1F5FB22E0060A60B /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		55A888FC1F5FB25D0060A60B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		55A888FE1F5FC47F0060A60B /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		55A889001F63A95B0060A60B /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		55A889011F63A95B0060A60B /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		DE34FA091B8FD59BA9462442 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				551A7F901F5E50D200AC73E9 /* ProfileVC.xib */,
+				55A889011F63A95B0060A60B /* AddChannelVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -165,6 +172,7 @@
 				550751151F4FC85600711FFA /* CreateAccountVC.swift */,
 				551A7F891F5CDF8D00AC73E9 /* AvatarPickerVC.swift */,
 				551A7F8F1F5E50D200AC73E9 /* ProfileVC.swift */,
+				55A889001F63A95B0060A60B /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				551A7F851F5687C500AC73E9 /* RoundedButton.swift */,
 				551A7F8B1F5CE21B00AC73E9 /* AvatarCell.swift */,
 				551A7F8D1F5D0B4F00AC73E9 /* CircleImage.swift */,
+				55A888FE1F5FC47F0060A60B /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A889031F63A95B0060A60B /* AddChannelVC.xib in Resources */,
 				551A7F921F5E50D200AC73E9 /* ProfileVC.xib in Resources */,
 				559867451F4E5402008E5D62 /* LaunchScreen.storyboard in Resources */,
 				559867421F4E5402008E5D62 /* Assets.xcassets in Resources */,
@@ -321,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551A7F911F5E50D200AC73E9 /* ProfileVC.swift in Sources */,
+				55A888FF1F5FC47F0060A60B /* ChannelCell.swift in Sources */,
 				559867541F4E7789008E5D62 /* ChatVC.swift in Sources */,
 				551A7F8A1F5CDF8D00AC73E9 /* AvatarPickerVC.swift in Sources */,
 				551A7F861F5687C500AC73E9 /* RoundedButton.swift in Sources */,
@@ -332,6 +343,7 @@
 				550751161F4FC85600711FFA /* CreateAccountVC.swift in Sources */,
 				551A7F841F5142EB00AC73E9 /* AuthService.swift in Sources */,
 				5593BB121F4FC115007F8AD1 /* LoginVC.swift in Sources */,
+				55A889021F63A95B0060A60B /* AddChannelVC.swift in Sources */,
 				5593BB0D1F4E9D44007F8AD1 /* GradientView.swift in Sources */,
 				551A7F8C1F5CE21B00AC73E9 /* AvatarCell.swift in Sources */,
 				5598673B1F4E5402008E5D62 /* AppDelegate.swift in Sources */,

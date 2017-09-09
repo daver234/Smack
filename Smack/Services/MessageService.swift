@@ -19,7 +19,7 @@ class MessageService {
     func findAllChannel(completion: @escaping CompletionHandler) {
         
         Alamofire.request(URL_GET_CHANNELS, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
-            
+            print("token is: \(BEARER_HEADER)")
             if response.result.error == nil {
                 guard let data = response.data else { return }
                 
@@ -30,7 +30,9 @@ class MessageService {
 //                    debugPrint(error as Any)
 //                }
 //                print(self.channels)
+                
                 if let json = JSON(data: data).array {
+                    print("here is json for channels \(json)")
                     for item in json {
                         let name = item["name"].stringValue
                         let channelDescription = item["description"].stringValue
