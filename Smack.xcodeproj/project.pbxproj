@@ -17,6 +17,7 @@
 		551A7F8E1F5D0B4F00AC73E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A7F8D1F5D0B4F00AC73E9 /* CircleImage.swift */; };
 		551A7F911F5E50D200AC73E9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A7F8F1F5E50D200AC73E9 /* ProfileVC.swift */; };
 		551A7F921F5E50D200AC73E9 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551A7F901F5E50D200AC73E9 /* ProfileVC.xib */; };
+		5548B7111F66353800D70445 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548B7101F66353800D70445 /* Message.swift */; };
 		5593BB0B1F4E7C71007F8AD1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */; };
 		5593BB0D1F4E9D44007F8AD1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0C1F4E9D44007F8AD1 /* GradientView.swift */; };
 		5593BB101F4FB6EF007F8AD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0F1F4FB6EF007F8AD1 /* Constants.swift */; };
@@ -47,6 +48,7 @@
 		551A7F8D1F5D0B4F00AC73E9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		551A7F8F1F5E50D200AC73E9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		551A7F901F5E50D200AC73E9 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		5548B7101F66353800D70445 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		5593BB081F4E7C58007F8AD1 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5593BB0A1F4E7C66007F8AD1 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				55A888FC1F5FB25D0060A60B /* Channel.swift */,
+				5548B7101F66353800D70445 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				559867541F4E7789008E5D62 /* ChatVC.swift in Sources */,
 				551A7F8A1F5CDF8D00AC73E9 /* AvatarPickerVC.swift in Sources */,
 				551A7F861F5687C500AC73E9 /* RoundedButton.swift in Sources */,
+				5548B7111F66353800D70445 /* Message.swift in Sources */,
 				55A888FD1F5FB25D0060A60B /* Channel.swift in Sources */,
 				551A7F8E1F5D0B4F00AC73E9 /* CircleImage.swift in Sources */,
 				55A888FB1F5FB22E0060A60B /* MessageService.swift in Sources */,
