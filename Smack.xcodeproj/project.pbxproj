@@ -18,6 +18,7 @@
 		551A7F911F5E50D200AC73E9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A7F8F1F5E50D200AC73E9 /* ProfileVC.swift */; };
 		551A7F921F5E50D200AC73E9 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551A7F901F5E50D200AC73E9 /* ProfileVC.xib */; };
 		5548B7111F66353800D70445 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548B7101F66353800D70445 /* Message.swift */; };
+		5548B7131F66428A00D70445 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548B7121F66428A00D70445 /* KeyboardBoundView.swift */; };
 		5593BB0B1F4E7C71007F8AD1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */; };
 		5593BB0D1F4E9D44007F8AD1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0C1F4E9D44007F8AD1 /* GradientView.swift */; };
 		5593BB101F4FB6EF007F8AD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593BB0F1F4FB6EF007F8AD1 /* Constants.swift */; };
@@ -49,6 +50,7 @@
 		551A7F8F1F5E50D200AC73E9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		551A7F901F5E50D200AC73E9 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		5548B7101F66353800D70445 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5548B7121F66428A00D70445 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		5593BB081F4E7C58007F8AD1 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		5593BB091F4E7C58007F8AD1 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		5593BB0A1F4E7C66007F8AD1 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		559867511F4E7762008E5D62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5548B7121F66428A00D70445 /* KeyboardBoundView.swift */,
 				5593BB0C1F4E9D44007F8AD1 /* GradientView.swift */,
 				551A7F851F5687C500AC73E9 /* RoundedButton.swift */,
 				551A7F8B1F5CE21B00AC73E9 /* AvatarCell.swift */,
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5548B7131F66428A00D70445 /* KeyboardBoundView.swift in Sources */,
 				55FCD5F51F63B5DD004B7575 /* SocketService.swift in Sources */,
 				551A7F911F5E50D200AC73E9 /* ProfileVC.swift in Sources */,
 				55A888FF1F5FC47F0060A60B /* ChannelCell.swift in Sources */,
