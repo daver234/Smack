@@ -113,7 +113,6 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.reloadRows(at: [indexPath], with: .none)
         tableView.selectRow(at: index, animated: false, scrollPosition: .none)
         
-        
         NotificationCenter.default.post(name: NOTIF_CHANNEL_SELECTED, object: nil)
         self.revealViewController().revealToggle(animated: true)
     }
